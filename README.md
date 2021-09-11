@@ -9,9 +9,10 @@ reuse old fashion style keybindings.
 ## Build: ##
 
 To build you need the jq utility
-
+``` console
 $ make clean
 $ make
+```
 
 ## Install ##
 
