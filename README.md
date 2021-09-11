@@ -21,3 +21,10 @@ The extension is not yet available on chrome store, so you have to load it manua
 1. Go to chrome://extensions/
 2. Enable "developer mode"
 3. Load unpacked and choose **chrome_extension**
+
+## Images ##
+Some useful commands to generate icons:
+``` console
+$ inkscape -w 128 -h 128 icon.svg -e icon128.png
+$ convert icon128.png -resize 128x128 -background Transparent -gravity center -extent 128x128 out128.png
+```
